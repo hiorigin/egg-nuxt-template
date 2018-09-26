@@ -14,6 +14,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  modules: [
+    ['@nuxtjs/axios', { browserBaseURL: '/', port: 8088 }],
+  ],
   srcDir: './nuxt/',
   loading: { color: '#3b8070' },
 }

@@ -5,3 +5,12 @@
     </h1>
   </section>
 </template>
+
+<script>
+export default {
+  async mounted() {
+    let data = await this.$axios.$get(`/api/topics`)
+    console.log(data)
+  }
+}
+</script>

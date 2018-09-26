@@ -1,4 +1,4 @@
-module.exports = {
-  keys: 'EGG_NUXT_APP',
+module.exports = appInfo => ({
+  keys: appInfo.name + '{{ ___KEYS___ }}',
   middleware: ['nuxtRender'],
-}
+})

@@ -4,7 +4,7 @@ module.exports = app => {
   if (isDev) {
     const { Builder } = require('nuxt')
     const nuxtBuilder = new Builder(app.nuxt)
-    nuxtBuilder.build().then(_ => {
+    nuxtBuilder.build().then(() => {
       console.log('[nuxt] Build Success.')        // eslint-disable-line no-console
     }).catch(err => {
       console.log('[nuxt] Building Error:')       // eslint-disable-line no-console
