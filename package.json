@@ -1,0 +1,27 @@
+{
+  "name": "egg-nuxt-template",
+  "version": "1.0.0",
+  "description": "A nuxt ssr project template using egg.js as the server side framework.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "egg-bin dev --port 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samhanx/egg-nuxt-template.git"
+  },
+  "keywords": [],
+  "author": "Hanx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samhanx/egg-nuxt-template/issues"
+  },
+  "homepage": "https://github.com/Samhanx/egg-nuxt-template#readme",
+  "dependencies": {
+    "egg": "^2.11.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0"
+  }
+}
