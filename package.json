@@ -4,7 +4,7 @@
   "description": "A nuxt ssr project template using egg.js as the server side framework.",
   "main": "app.js",
   "scripts": {
-    "dev": "egg-bin dev --port 8088",
+    "dev": "egg-bin dev --port 7001",
     "build": "nuxt build"
   },
   "repository": {
