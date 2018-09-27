@@ -15,7 +15,7 @@ module.exports = {
     ]
   },
   modules: [
-    ['@nuxtjs/axios', { browserBaseURL: '/', port: 8088 }],
+    ['@nuxtjs/axios', { browserBaseURL: '/', port: 7001 }],
   ],
   srcDir: './nuxt/',
   loading: { color: '#3b8070' },
