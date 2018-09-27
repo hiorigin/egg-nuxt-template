@@ -8,5 +8,5 @@ module.exports = {
       this[NUXT] = new Nuxt(config)
     }
     return this[NUXT]
-  }
+  },
 }
